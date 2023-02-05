@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.Input h1 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.addtask {
+  padding: 10px;
+  border: 1.5px solid #d9d9de;
+  border-radius: 3px;
+  width: 460px;
+  height: 80px;
+  margin: auto;
+}
+.addtask button {
+  width: 450px;
+  height: 30px;
+  color: white;
+  border: hidden;
+  border-radius: 3px;
+  background-color: rgb(25, 135, 190);
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+#newtodo {
+  width: 410px;
+  height: 20px;
+  margin-top: 4px;
+  margin-bottom: 3%;
+  margin-left: 25px;
+}
+/*list*/
+.list h1 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.list{
+  width: 480px;
+  height: 80px;
+  margin: auto;
+}
+
+.listbuttons button{
+  margin-right: 10px;
+  width: 30%;
+  height: 30px;
+  color: white;
+  border: hidden;
+  border-radius: 3px;
+  background-color: rgb(25, 135, 190);
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+.btn:hover{
+background-color: rgb(27, 113, 155);
+}
+#all,#done,#todo
+{
+  margin-bottom: 15px;
+}
+
+/*task preview*/
+.task-preview{
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px;
+  border: 1.5px solid #d9d9de;
+  border-radius: 3px;
+  height: 20px;
+  display: flex;
+  
+}
+.task-preview span{
+  
+text-align: center;
+  
+}
+.done{
+  color: red;
+  text-decoration: line-through;
+  
+}
+
+.task-preview input{
+
+  margin-left: auto;
+  
+}
+#deletedone,#deleteall{
+  background-color: rgb(216, 8, 8);
+  width: 45%;
+  margin-top: 15px;
+}
+
+#deletedone:hover,#deleteall:hover{
+  background-color: rgb(187, 10, 10);
+}
+.task-preview button{
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  padding-bottom: 5px 5px 5px 5px;
+  margin-left: 3px;
+  font-size: 11px;
+  
+}
+.taskimg{
+  width: 12px;
+  height: 15px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+#addtaskimg{
+  width: 23px;
+  height: 20px;
+  padding-top: 6px;
+  position:absolute;
+}
+/* .task-preview input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+} */
+/* .checkmark{
+  margin-left: auto;
+  margin-top: 4px;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+} */
